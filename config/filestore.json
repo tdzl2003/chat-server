@@ -1,0 +1,20 @@
+{
+  "development": {
+    "accessKey": "made75kGFhOozkiRfa7LK_E1xG1pLOnhW8fhbnev",
+    "secretKey": "WyQ_ssjPywpPtaX2PaGfgVfCpXnwdF5poaWF6I4v",
+    "bucket": "chat-avatar",
+    "domain": "o86dk4vmp.bkt.clouddn.com"
+  },
+  "test": {
+    "accessKey": "made75kGFhOozkiRfa7LK_E1xG1pLOnhW8fhbnev",
+    "secretKey": "WyQ_ssjPywpPtaX2PaGfgVfCpXnwdF5poaWF6I4v",
+    "bucket": "chat-avatar",
+    "domain": "o86dk4vmp.bkt.clouddn.com"
+  },
+  "production": {
+    "accessKey": "made75kGFhOozkiRfa7LK_E1xG1pLOnhW8fhbnev",
+    "secretKey": "WyQ_ssjPywpPtaX2PaGfgVfCpXnwdF5poaWF6I4v",
+    "bucket": "chat-avatar",
+    "domain": "o86dk4vmp.bkt.clouddn.com"
+  }
+}
