@@ -26,7 +26,7 @@ module.exports = function(sequelize, DataTypes) {
       comment: 'MD5(MD5(密码)+密码盐)'
     },
     avatar: {
-      type: Sequelize.STRING(50),
+      type: DataTypes.STRING(50),
       allowNull: false,
       comment: '头像'
     },
