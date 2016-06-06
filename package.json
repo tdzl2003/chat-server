@@ -24,6 +24,7 @@
     "qiniu": "^6.1.9",
     "read": "^1.0.7",
     "request": "^2.69.0",
+    "rongcloud-sdk": "^1.0.3",
     "sequelize": "^3.19.3",
     "uid-safe": "^2.0.0",
     "umzug": "^1.9.0"
