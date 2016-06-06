@@ -27,5 +27,5 @@ export function checkLogined(ctx, next) {
 }
 
 export function getAvatarUrl(key){
-  return getDownloadUrl(key, imageView2(1, 128, 128));
+  return getDownloadUrl(key, imageView2(1, {w:128, h:128}));
 }
