@@ -11,6 +11,7 @@ import StatusError from '../utils/StatusError';
 
 import { createToken, checkTokenWithInfo } from '../utils/token';
 import {getAvatarUrl} from '../modules/user';
+import {getRongToken} from '../modules/rong';
 
 const router = new Router();
 
@@ -62,6 +63,7 @@ router.post('/register', async (ctx) => {
   ctx.body = {
     id: user.id,
     token: createLoginToken(user.id),
+    rongToken: await getRongToken(user.id),
     avatar: getAvatarUrl(avatar),
   };
 });
@@ -83,6 +85,7 @@ router.post('/login', async (ctx) => {
   ctx.body = {
     id: user.id,
     token: createLoginToken(user.id),
+    rongToken: await getRongToken(user.id),
     info:{
       id: user.id,
       name: user.name,
