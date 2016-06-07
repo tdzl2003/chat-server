@@ -10,6 +10,7 @@ export function getRongToken(uid){
     rongSDK.user.getToken(uid, '1','2', function(err, resultText){
       if (err){
         reject(err);
+        return;
       }
       var result = JSON.parse(resultText);
       if (result.code === 200){
